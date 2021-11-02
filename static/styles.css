@@ -1,0 +1,35 @@
+
+
+.navbar {
+    background-color: #333333;
+}
+
+a {
+    color:red;
+}
+
+a:hover {
+    color: red;
+  }
+  
+h1 {
+    
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
+}
+
+h3 {
+    
+    margin: 0 auto;
+    background:white;
+    text-align: center;
+}
+body {
+    background-color: #e1f4f3;
+    text-align: center;
+    background-image: url("flight1.jpg");
+    background-repeat: repeat-n;
+    background-size: cover;
+   
+}
