@@ -28,3 +28,10 @@ Total_Stops: Total stops between the source and destination.
 Additional_Info: Additional information about the flight
 
 Price: The price of the ticket
+
+# Development and Deployment
+The app was developed  with the help of Python for coding and HTML/JS/CSS for Frontend.
+The Web Frameworks used was Flask and Deployment in Heroku.
+
+# Chekout the app at the given link.
+https://airticketvalue.herokuapp.com
