@@ -29,6 +29,9 @@ Additional_Info: Additional information about the flight
 
 Price: The price of the ticket
 
+Decison Tree Regressor and Random Foresrt Regressor were used to use the availabe data and predict the values.
+After using the data and checking various metrcis Random Forest Regressor was chosen to be used on the data and the model was saved as pickle file.
+
 # Development and Deployment
 The app was developed  with the help of Python for coding and HTML/JS/CSS for Frontend.
 The Web Frameworks used was Flask and Deployment in Heroku.
