@@ -36,5 +36,8 @@ After using the data and checking various metrcis Random Forest Regressor was ch
 The app was developed  with the help of Python for coding and HTML/JS/CSS for Frontend.
 The Web Frameworks used was Flask and Deployment in Heroku.
 
+![image](https://user-images.githubusercontent.com/76935226/140321990-66ca178d-fe7c-49a4-abf8-a27f0da6fbc8.png)
+
+
 # Chekout the app at the given link.
 https://airticketvalue.herokuapp.com
