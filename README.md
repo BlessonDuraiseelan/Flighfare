@@ -36,9 +36,10 @@ After using the data and checking various metrcis Random Forest Regressor was ch
 The app was developed  with the help of Python for coding and HTML/JS/CSS for Frontend.
 The Web Frameworks used was Flask and Deployment in Heroku.
 
-![image](https://user-images.githubusercontent.com/76935226/140321990-66ca178d-fe7c-49a4-abf8-a27f0da6fbc8.png)         ![image](https://user-images.githubusercontent.com/76935226/140322314-34afda85-34fa-4413-be2c-a24ff57c61f6.png)
+![image](https://user-images.githubusercontent.com/76935226/140321990-66ca178d-fe7c-49a4-abf8-a27f0da6fbc8.png)                     ![image](https://user-images.githubusercontent.com/76935226/140322314-34afda85-34fa-4413-be2c-a24ff57c61f6.png)
 
-![image](https://user-images.githubusercontent.com/76935226/140322080-5ddf17b2-b7b6-4724-86d0-16413303dedf.png)
+![image](https://user-images.githubusercontent.com/76935226/140322080-5ddf17b2-b7b6-4724-86d0-16413303dedf.png)                   ![image](https://user-images.githubusercontent.com/76935226/140322396-2eebd843-25cc-4ce9-bb3b-9060f59e5ee4.png)
+
 
 
 
