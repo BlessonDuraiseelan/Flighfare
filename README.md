@@ -1,7 +1,7 @@
 # Flightfare Prediction App
 
 This webapp is developed to predict the flightfare prices across the Indian cities.
-Here the user input details like Dep Date, Arrival Date ,Destination, Source,Stoppages and airline which are useful in predicting the prices.
+Here the user inputs details like Departure Date, Arrival Date ,Destination, Source,Stoppages and airline which are useful in predicting the prices.
 The app is built using flask and deployed in the web using Heroku.
 
 # Dataset and Modelling 
@@ -29,8 +29,10 @@ Additional_Info: Additional information about the flight
 
 Price: The price of the ticket
 
-Decison Tree Regressor and Random Foresrt Regressor were used to use the availabe data and predict the values.
-After using the data and checking various metrcis Random Forest Regressor was chosen to be used on the data and the model was saved as pickle file.
+After importing the data and applying pre processing techniques in the dataset we drew insight by plotting various graphs and visualisations that provided the information required to understand the data.
+
+Decison Tree Regressor and Random Foresrt Regressor were used to use the availabe data and predict the values. Random Forest Regrssor gave the better score.
+After using the data and checking various metrcis using Cross Validation Random Forest Regressor was chosen to be used on the data and the model was saved as pickle file.
 
 # Development and Deployment
 The app was developed  with the help of Python for coding and HTML/JS/CSS for Frontend.
