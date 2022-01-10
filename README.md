@@ -48,3 +48,8 @@ The Web Frameworks used was Flask and Deployment in Heroku.
 
 # Chekout the app at the given link.
 https://airticketvalue.herokuapp.com
+
+![Screenshot (166)](https://user-images.githubusercontent.com/76935226/148753234-6726bee3-b57e-4562-87da-653f5a83a1d0.png)
+![Screenshot (167)](https://user-images.githubusercontent.com/76935226/148753251-6f0e1f60-5da1-4b61-8368-086f3f7c2520.png)
+
+
