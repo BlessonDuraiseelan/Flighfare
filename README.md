@@ -1,11 +1,11 @@
 # Flightfare Prediction App
 
-This webapp is developed to predict the flightfare prices across the Indian cities.
+This webapp is developed to predict the flightfare prices travelled across the Indian cities.
 Here the user inputs details like Departure Date, Arrival Date ,Destination, Source,Stoppages and airline which are useful in predicting the prices.
 The app is built using flask and deployed in the web using Heroku.
 
 # Dataset and Modelling 
-The dataset for the project is taken from Kaggle, and it is a time-stamped dataset so, while building the model,  pre-processing was done on the dataset especially on the date-time columns to finally come up with a ML model which could effectively predict airline fares across various Indian Cities. The various features in the dataset were:
+The dataset for the project is taken from Kaggle, and it is a time-stamped dataset so, while building the model, pre-processing was done on the dataset especially on the date-time columns to finally come up with a ML model which could effectively predict airline fares across various Indian Cities. The various features in the dataset were:
 
 Airline: The name of the airline.
 
@@ -29,10 +29,11 @@ Additional_Info: Additional information about the flight
 
 Price: The price of the ticket
 
-After importing the data and applying pre processing techniques in the dataset we drew insight by plotting various graphs and visualisations that provided the information required to understand the data.
+After importing the data and applying pre processing techniques in the dataset we drew insight by plotting various graphs and visualisations that provided the information required to understand the data. The pre processing included converting the data columns into categorical columns as the date parameter cannot be used to predict. The pre processing was done on both train as well as test data. We also drew much insight on the type of information and the co relation of the data related to airlines and other parameters.
 
-Decison Tree Regressor and Random Foresrt Regressor were used to use the availabe data and predict the values. Random Forest Regrssor gave the better score.
+Since we have to predict a continous variable we need to use a regression algorithm. Decison Tree Regressor and Random Forest Regressor were used to use the availabe data and predict the values. Random Forest Regrssor gave the better score.
 After using the data and checking various metrcis using Cross Validation Random Forest Regressor was chosen to be used on the data and the model was saved as pickle file.
+The pickle file will be further used for processing in the flask file.
 
 # Development and Deployment
 The app was developed  with the help of Python for coding and HTML/JS/CSS for Frontend.
