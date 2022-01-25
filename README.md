@@ -36,8 +36,11 @@ After using the data and checking various metrcis using Cross Validation Random 
 The pickle file will be further used for processing in the flask file.
 
 # Development and Deployment
-The app was developed  with the help of Python for coding and HTML/JS/CSS for Frontend.
-The Web Frameworks used was Flask and Deployment in Heroku.
+The Programming language used was Python.
+
+The Web Framework used was Flask.
+
+Deployment in the web was done by Heroku.
 
 ![image](https://user-images.githubusercontent.com/76935226/140321990-66ca178d-fe7c-49a4-abf8-a27f0da6fbc8.png)                     ![image](https://user-images.githubusercontent.com/76935226/140322314-34afda85-34fa-4413-be2c-a24ff57c61f6.png)
 ![image](https://user-images.githubusercontent.com/76935226/150634420-34207f18-c7c7-4694-b08b-e5d02dc78d41.png)
