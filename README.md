@@ -29,9 +29,12 @@ Additional_Info: Additional information about the flight
 
 Price: The price of the ticket
 
-After importing the data and applying pre processing techniques in the dataset we drew insight by plotting various graphs and visualisations that provided the information required to understand the data. The pre processing included converting the data columns into categorical columns as the date parameter cannot be used to predict. The pre processing was done on both train as well as test data. We also drew much insight on the type of information and the co relation of the data related to airlines and other parameters.
+After importing the data various  pre processing techniques were applied in the dataset. As we need to predict the price of the fare this belongs to regression category. The data we need to use must be iin the form that will be used by regression algorithm to predict our desired result. Pre processing techniques were applied on the date columns as the data was in a date format which would not be suitable to feed to the algorithm So the column was separated into categorical columns.
+
+Insight was drawn by plotting various graphs and visualisations that provided the information required to understand the data. The pre processing was done on both train as well as test data. We also drew much insight on the type of information and the co relation of the data related to airlines and other parameters.
 
 Since we have to predict a continous variable we need to use a regression algorithm. Decison Tree Regressor and Random Forest Regressor were used to use the availabe data and predict the values. Random Forest Regrssor gave the better score.
+
 After using the data and checking various metrcis using Cross Validation Random Forest Regressor was chosen to be used on the data and the model was saved as pickle file.
 The pickle file will be further used for processing in the flask file.
 
